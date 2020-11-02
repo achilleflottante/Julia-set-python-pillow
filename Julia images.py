@@ -59,5 +59,4 @@ for i in range(36):
     c = complex(0.26+rcos * cos(radians(angle)), rsin * sin(radians(angle)))
     angle +=10
 
-frames[0].save('/Users/achille/Desktop/images/test.gif', save_all=True, append_images = frames[1:],duration=100, loop=0)
-
+frames[0].save('yourfolder', save_all=True, append_images = frames[1:],duration=100, loop=0)
