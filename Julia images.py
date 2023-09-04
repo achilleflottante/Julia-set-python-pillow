@@ -3,7 +3,7 @@ from PIL import Image
 from math import cos,sin,radians
 import os
 
-os.system("rm /Users/achille/Desktop/images/*")
+os.system("rm /Users/XXXX/Desktop/images/*")
 
 
 dim = 256
